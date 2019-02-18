@@ -1,0 +1,11 @@
+<div class="container">
+   <div class="location-form">
+    <h2>Creative Excuse #<%= @excuse[:id] %></h1>
+    <img src=<%= @excuse[:gif] %> alt="">
+    <p><%= @excuse[:excuse] %></p>
+     <div class="d-flex">
+      <%= link_to "👍🏼", location_path, {class: 'cta-btn'} %>
+      <%= link_to "👎🏼", creative_path, {class: 'other-btn'} %>
+    </div>
+  </div>
+</div>

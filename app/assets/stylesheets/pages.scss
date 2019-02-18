@@ -1,0 +1,82 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+body {
+  background-color: lightgray;
+  height: 100vh;
+}
+
+h1 {
+  font-family: arial;
+  font-style: bold;
+  margin: 36px auto;
+}
+
+.homepage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.cta-btn {
+  color: white;
+  background: #ADCBE7;
+  border-radius: 4px;
+  padding: 16px;
+  width: 100%;
+  margin: 18px auto;
+  box-shadow: 1px 1px 8px grey;
+  &:hover {
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+  }
+}
+
+.other-btn {
+  color: white;
+  background: #A6D0C9;
+  border-radius: 4px;
+  padding: 16px;
+  width: 100%;
+  margin: 18px auto;
+  box-shadow: 1px 1px 8px grey;
+    &:hover {
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+  }
+}
+
+.location-form {
+  border-radius: 4px;
+  padding: 16px;
+  width: 100%;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 1px 1px 8px grey;
+}
+
+input {
+  border-radius: 4px;
+  padding: 16px;
+  width: 100%;
+  margin: 9px auto;
+}
+
+h2 {
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  margin: 24px auto;
+}
